@@ -1,0 +1,77 @@
+/*Zuerueck und Weiter Buttons*/
+.button{
+  background-color: #4CAF50;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin: 10px 0 0;
+}
+/*Info ueber Kategorie + Szenario*/
+.form .info{
+  margin: 40px 0 2px;
+  color: #2f4f4f;
+  font-size: 10px;
+  font-weight: bold;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  padding: 9px;
+  border-radius: 3px;
+}
+/*Fortschritt Ueberschrift Design*/
+.form .titel{
+  margin: 2px 0 2px;
+  color: #76b852;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*Progress Bar design:
+Notwendig fuer verschiedene Browser einzeln zu optimieren*/
+progress{
+  width: 100%;
+}
+progress::-webkit-progress-value {
+  background: #76b852;
+} /*Chrome,Safari*/
+progress::-moz-progress-bar {
+   background: #76b852;
+} /*Mozzilla*/
+
+/*Live Chat Button*/
+.chatbutton{
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  color:#76b852;
+  display: inline-block;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 4px 25px;
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  cursor: pointer;
+  position:absolute; top:45px; right:305px;
+}
+/*X-Button: Schließen*/
+#close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    position:absolute; top:45px; right:45px;
+}
+#close:hover {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff;
+}
